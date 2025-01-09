@@ -1,0 +1,59 @@
+<!-- /cart/cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Your Shopping Cart</title>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+          <style>
+                    .cart-item {
+                              background: white;
+                              border-radius: 8px;
+                              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                              margin-bottom: 15px;
+                              padding: 15px;
+                    }
+
+                    .cart-image {
+                              width: 100px;
+                              height: 100px;
+                              object-fit: cover;
+                              border-radius: 4px;
+                    }
+          </style>
+</head>
+
+<body class="bg-light">
+          <div class="container mt-4">
+                    <h2 class="mb-4">Your Shopping Cart</h2>
+                    <div class="cart-item">
+                              <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                                  <img src="image-placeholder.jpg" class="cart-image"
+                                                            alt="Product Name">
+                                        </div>
+                                        <div class="col-md-4">
+                                                  <h5>Product Name</h5>
+                                                  <p class="text-muted">Product Details</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                                  <span class="text-primary">₹1000</span>
+                                        </div>
+                                        <div class="col-md-4 text-end">
+                                                  <a href="#" class="btn btn-danger btn-sm">Remove</a>
+                                                  <a href="#" class="btn btn-success btn-sm">Buy Now</a>
+                                        </div>
+                              </div>
+                    </div>
+
+
+                    <div class="card mt-3">
+                              <div class="card-body">
+                                        <h5>Cart Total: ₹1000</h5>
+
+                              </div>
+                    </div>
+          </div>
+</body>
